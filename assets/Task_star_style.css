@@ -1,0 +1,28 @@
+td,th{
+    padding-top: 5px;
+    padding-right: 110px;
+}
+th{
+    padding-right: 60px;
+    border: none;
+    text-align: left;
+    justify-content: flex-start;
+}
+thead,tbody{
+    display: table-row;
+}
+tr td:first-child{
+    padding-right: 28px;
+}
+tr td:nth-child(2){
+    padding-right: 147px;
+}
+tr td:nth-child(3){
+    padding-right: 219px;
+}
+thead{
+    background-color: #8A2BE2;
+}
+tbody tr{
+    background-color: #8A2BE2;
+}

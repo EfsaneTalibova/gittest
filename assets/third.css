@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.Custom{
+    width: 400px;
+}
+span{
+    width: 200px;
+}
+.headding{
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #f5eee9;
+    width: 600px;
+}

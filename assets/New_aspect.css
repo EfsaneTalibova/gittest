@@ -1,0 +1,39 @@
+#custom{
+    border: none;
+}
+table{
+    border-collapse: collapse;
+}
+thead{
+    border: none;
+    background-color: #8A2BE2;
+}
+th{
+    text-align: left;
+    padding-right: 50px;
+}
+tbody tr:nth-child(2n+1){
+    background-color: rgb(197, 197, 227);
+}
+tbody tr:nth-child(2n){
+    background-color: #a504b2;
+}
+tbody tr:last-child{
+    background-color: #8A2BE2;
+}
+tr:hover{
+    background-color: yellow !important;
+}
+tbody tr td{
+    position: relative;
+}
+.pop_up span{
+    visibility: hidden;
+    position: absolute;
+    background-color: gray;
+}
+.pop_up:hover span{
+    visibility: visible;
+    top: 11px ;
+    right: 9px ;
+}

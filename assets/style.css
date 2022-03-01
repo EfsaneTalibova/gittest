@@ -1,0 +1,67 @@
+container{
+    width: 100%;
+    height: 100%;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+.visa {
+    background-color: #8A2BE2;
+    width: 315px;
+    height: 200px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 0px 0px 0px 15px;
+    display: inline-block;
+}
+#imgchip,#imgchip2,#imgchip3,#imgchip4 {
+    width: 50px;
+    padding-top: 35px;
+    margin-left: -5px;
+}
+#num,#num2,#num3,#num4 {
+    font-weight: 200;
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 0px;
+    margin: -5px 0px 0px;
+}
+#name,#name2,#name3,#name4 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    margin: 0px;
+    font-family: monospace;
+}
+#val,#val2,#val3,#val4 {
+    font-size: 9px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Tahoma', sans-serif;
+}
+#date,#date2,#date3,#date4 {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Tahoma', sans-serif;
+}
+.visa2{
+    background-color: black;
+}
+.visa3{
+    background-color: green;
+}
+.visa4{
+    background-color: blue;
+}
+.img_div{
+    display: flex;
+    justify-content: space-between;
+}
+.img_div img{
+    width: 70px;
+}

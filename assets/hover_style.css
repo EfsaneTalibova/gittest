@@ -1,0 +1,6 @@
+.tip{
+    visibility: hidden;
+}
+.photo-with-tip:hover .tip{
+    visibility: visible;
+}
